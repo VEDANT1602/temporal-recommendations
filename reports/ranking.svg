@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="310" viewBox="0 0 820 310" role="img" aria-labelledby="title desc">
+<title id="title">Full-catalog test NDCG at 10</title>
+<desc id="desc">A zero-baseline bar chart of saved offline metrics. Not an online business outcome.</desc>
+<rect width="820" height="310" fill="#f6f8fc"/>
+<text x="32" y="34" font-family="sans-serif" font-size="23" fill="#132b45">What does personalization add after a time split?</text>
+<text x="32" y="62" font-family="sans-serif" font-size="15" fill="#476079">Macro NDCG@10, warm users with eligible positive ratings</text>
+<text x="32" y="125" font-family="sans-serif" font-size="16">Popularity</text>
+<rect x="275" y="102" width="315.66" height="34" rx="4" fill="#68809b"/>
+<text x="600.66" y="125" font-family="sans-serif" font-size="17">0.1377</text>
+<text x="32" y="205" font-family="sans-serif" font-size="16">BPR matrix factorization</text>
+<rect x="275" y="182" width="375.00" height="34" rx="4" fill="#1a827f"/>
+<text x="660.00" y="205" font-family="sans-serif" font-size="17">0.1636</text>
+<text x="32" y="283" font-family="sans-serif" font-size="14" fill="#476079">Source: metrics.json. Ratings are not impressions; no CTR or revenue claim.</text>
+</svg>
