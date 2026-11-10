@@ -79,3 +79,7 @@ This project demonstrates skills relevant to client-facing recommendation and ra
 ## Inspiration and attribution
 
 [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) inspired the approach of learning a system by implementing its core. This project uses that direction rather than copying a tutorial. The code, fixture, evaluation protocol and report generator are original for this portfolio. The BPR objective is credited to [Rendle et al., UAI 2009](https://arxiv.org/abs/1205.2618); the dataset is credited to GroupLens under its separate terms.
+
+## Standalone source and history
+
+This project is also available as a self-contained repository extracted from my original portfolio, with its project commit history and recorded artifacts retained. [Source and measurement provenance](PROVENANCE.md) documents the source revision, unchanged file blobs and packaging boundary.

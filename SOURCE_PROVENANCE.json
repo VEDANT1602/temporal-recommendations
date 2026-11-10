@@ -1,0 +1,91 @@
+{
+  "name": "temporal-recommendations",
+  "source_hub": "https://github.com/VEDANT1602/DataScienceProject",
+  "source_commit": "ef9c14c01163ad3eadb3eaa673c0073b14478184",
+  "source_prefix": "projects/temporal-recommendations",
+  "split_head": "34d235dd3eb8e4270b3f52bba7181860499852e6",
+  "source_tree": "45e4744e41468685ebb90c24e95769e6eea36d63",
+  "export_tree": "45e4744e41468685ebb90c24e95769e6eea36d63",
+  "files": 19,
+  "history_commits": 1,
+  "extraction_date": "2026-11-10",
+  "original_files": [
+    {
+      "path": ".gitignore",
+      "git_blob": "0b44c7d42d8be9986c87da85f1c9664065136498"
+    },
+    {
+      "path": "DATA_CARD.md",
+      "git_blob": "3ab0927981c270176754fb45bb73cb0580363bec"
+    },
+    {
+      "path": "README.md",
+      "git_blob": "10812de7c3f3f5a23e4212c9a53dff8847bf2b5b"
+    },
+    {
+      "path": "data/fixture.tsv",
+      "git_blob": "9d904b0944b54c624a42ac032ae985fdeeecb2b0"
+    },
+    {
+      "path": "render_report.py",
+      "git_blob": "394487eed8f6100e6c803ed8c2e44969bd92c507"
+    },
+    {
+      "path": "reports/case-study.md",
+      "git_blob": "55f9042e5f7e02f95e10092db66ccb818e926094"
+    },
+    {
+      "path": "reports/coverage.svg",
+      "git_blob": "e0b4ff343b6eca9ff687d5022304b02497df84e7"
+    },
+    {
+      "path": "reports/metrics.json",
+      "git_blob": "bdf612d3907e3d821938adcc22102fd2eeb0eeab"
+    },
+    {
+      "path": "reports/per_user_system_test.csv",
+      "git_blob": "3dc8f947cf76e2b4a7704d9066d24b0b597f53ca"
+    },
+    {
+      "path": "reports/per_user_test.csv",
+      "git_blob": "325fa1b1dc6baa10d0d21781c38ec939a6bffa4e"
+    },
+    {
+      "path": "reports/ranking.svg",
+      "git_blob": "f29edec9ed2af915995a99a4fcd0952f03c14a8a"
+    },
+    {
+      "path": "requirements.txt",
+      "git_blob": "f1ef287a16b14bb9d6ae0a38c8027940a36812e6"
+    },
+    {
+      "path": "run.py",
+      "git_blob": "547b09b2a691a352b03fadd665bd513626ee5398"
+    },
+    {
+      "path": "src/timerec/__init__.py",
+      "git_blob": "d491795e989ac0bb9cd9371e04614b722e57e5cd"
+    },
+    {
+      "path": "src/timerec/data.py",
+      "git_blob": "f33a71f3b65e94457271648cd941e68ac907162c"
+    },
+    {
+      "path": "src/timerec/evaluate.py",
+      "git_blob": "043e8da6b9a4ee93ec50b8e21d748ccf23fc8b1f"
+    },
+    {
+      "path": "src/timerec/experiment.py",
+      "git_blob": "8b97b29e73fa385cf38812e7acdf1d1e1ce1cfed"
+    },
+    {
+      "path": "src/timerec/model.py",
+      "git_blob": "dd9af5239cbe75d0071eedfea96ae7effc57d1da"
+    },
+    {
+      "path": "tests/test_temporal_recommendations.py",
+      "git_blob": "69c4fba4f9bfe0958b93bb017768ca7fcc07e311"
+    }
+  ],
+  "measurement_artifacts_reexecuted": false
+}
