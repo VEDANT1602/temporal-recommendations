@@ -1,17 +1,8 @@
 # Temporal Recommendations
 
-**Does personalization still help when every interaction from the future is off limits?**
+The first MovieLens comparison could score only 869 of 8,471 positive test ratings. A user needed a learned factor and the target item had to exist in the training catalog. Serving the training popularity ranking to cold users brought the count to 8,291. This changes coverage. Whether personalization improves ranking is a separate comparison on the same eligible users and items. [Ranking and coverage results](reports/case-study.md) · [Metrics](reports/metrics.json)
 
-An original PyTorch recommender experiment by Vedant Thaker. I compare a popularity baseline with pairwise matrix factorization, then require both to rank the same full catalog under the same global-time boundary. The output is a model decision supported by reproducible evidence, with cold-start exclusions and coverage visible.
-
-This is new independent portfolio research. It demonstrates recommendation engineering and evaluation practices; it is not employer code, a historical client deployment, or proof of previous workplace metrics.
-
-## Start with the evidence
-
-- [Read the generated case study](reports/case-study.md): problem, alternative, framework, actual results and decision.
-- [Inspect the numerical source of truth](reports/metrics.json).
-- [Check the data card and licensing boundary](DATA_CARD.md).
-- [Review the tests](tests/test_temporal_recommendations.py).
+Popularity and PyTorch matrix factorization use a common chronological split and the full eligible catalog. The [data card](DATA_CARD.md) documents the GroupLens dataset and its terms.
 
 ![Full-catalog ranking result](reports/ranking.svg)
 
